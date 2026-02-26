@@ -23,3 +23,22 @@ The Chronicler Agent: A stateful agent that listens to parent input to build a "
 The Illustrator Agent: Specializes in visual style coherence, processing character metadata to generate high-fidelity 1024x1024 assets via the Nano Banana architecture.
 
 The Persona Agent: A low-latency agent that powers the real-time interaction loop, utilizing Voice Activity Detection (VAD) to handle natural interruptions and turn-taking.
+
+# 🛠️ Tech Stack
+Core Models:
+
+gemini-3-pro-preview (Reasoning & Orchestration)
+
+gemini-2.5-flash-image (Consistent Character Generation)
+
+gemini-live-2.5-flash-native-audio (Low-latency Live API)
+
+Frameworks: Google Agent Development Kit (ADK), Google GenAI SDK.
+
+Cloud Infrastructure:
+
+Backend: Python (FastAPI) hosted on Google Cloud Run.
+
+Persistence: Firebase AI Logic for metadata and asset management.
+
+Deployment: Automated via Terraform (Infrastructure-as-Code).
