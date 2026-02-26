@@ -1,6 +1,3 @@
-# LoreLive
-Live Cartoon Creator
-
 # LoreLive: Real-Time Multimodal Cartoon Creator & Interactive Companion
 Built for the Gemini Live Agent Challenge, LoreLive is a generative multi-agent ecosystem that transforms simple verbal prompts into living cartoon universes. It moves beyond the traditional "text box" paradigm by enabling parents to co-create consistent narratives and allowing children to interact with their favorite characters in an emotionally aware, real-time environment.
 
